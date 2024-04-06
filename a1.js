@@ -11,3 +11,4 @@ console.log("Happy testing, " + name)
 let love = "Arabella"
 
 console.log(name + " loves " + love)
+console.log (`O ${name} faz tudo que a ${love} mandar`)
