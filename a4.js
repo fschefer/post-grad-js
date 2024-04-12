@@ -18,6 +18,7 @@ if (idade >= 12 && idade < 18) {
     console.log("invalid number");
 }
 
+const prompt = require("prompt-sync")()
 const nome = prompt("Nos diga seu nome")
 
 if (nome == "Arabella"){
