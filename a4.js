@@ -8,7 +8,7 @@ if (mensagem != "Sucesso") {
 
 const idade = 18;
 
-if (idade >= 12 && idade < 18) { 
+if (idade >= 12 && idade < 18) {
     console.log("teenager");
 } else if (idade < 12 && idade >= 0) {
     console.log("child");
@@ -21,17 +21,17 @@ if (idade >= 12 && idade < 18) {
 const prompt = require("prompt-sync")()
 const nome = prompt("Nos diga seu nome")
 
-if (nome == "Arabella"){
+if (nome == "Arabella") {
     console.log("Welcome")
-} else if(nome == "Flávio") {
+} else if (nome == "Flávio") {
     console.log("Bem-vindo")
 } else {
-    console.log ("Você não pode vir aqui")
+    console.log("Você não pode vir aqui")
 }
 
 const gato = prompt("Quem é você?")
-if (gato == "Citrino" || gato == "Artemis" || gato == "Kali" || gato == "Nêmesis"){
+if (gato == "Citrino" || gato == "Artemis" || gato == "Kali" || gato == "Nêmesis") {
     console.log("Olá, meninos")
 } else {
-    console.log ("Você é algum outro gato!")
+    console.log("Você é algum outro gato!")
 }
